@@ -1,6 +1,8 @@
 const app = Vue.createApp({
   data: () => ({
-    isLarge: true
+    isLarge: true,
+    hasError: true
+
   })
 })
 app.mount('#app')
